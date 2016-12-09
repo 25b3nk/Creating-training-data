@@ -1,0 +1,3 @@
+sed -n '5001,$ p' shuff.txt > train_data_list.txt
+sed -n 1,5000p shuff.txt > test_data_list.txt
+wc -l test_data_list.txt  # to know number of lines in text file
