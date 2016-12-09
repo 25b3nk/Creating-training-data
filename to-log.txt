@@ -1,0 +1,1 @@
+./build/tools/caffe train -solver './model/solver.prototxt' -model '/home/uv/projects/face_recog/face_verification_experiment/model/LightenedCNN_B.caffemodel' -gpu 0 > log_ver2_01.log 2>&1 &
